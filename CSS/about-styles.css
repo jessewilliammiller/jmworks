@@ -1,0 +1,42 @@
+#aboutBody {
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: center;
+    align-items: center;
+    gap: 40px 5%;
+    margin: 0px 2%;  
+}
+
+#aboutBody #aboutCopy p {
+    font-size: 16px;
+    text-align: left;
+}
+
+#aboutPic {
+    margin-top: 15px;
+    width: 515px;
+    height: 500px;
+}
+
+#aboutCopy {
+    width: 500px;
+}
+
+hr {
+    margin: 50px 5%;
+}
+
+
+@media (max-width: 1088px) {
+    #aboutCopy {
+        width: 90%;
+    }
+    #aboutPic {
+        width: 375px;
+        height: auto;
+    }
+    #aboutBody {
+        gap: 0 0;
+    }
+}
+
