@@ -1,0 +1,162 @@
+#projectsBody {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 0;
+}
+
+
+.link {
+    display: block;
+    height: 400px;
+    width: 400px;
+    font-size: 0px;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.sf-link {
+    height: 266px;
+}
+
+.pass-link {
+    height: 517px;
+}
+
+.peg-link {
+    height: 300px;
+}
+
+.jg-link {
+    height: 266px;
+}
+
+.pic {
+    width: 100%;
+    background-size: 100%;
+    height: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#ThePassenger {
+    background-image: url("../images/Projects-Pics/passenger-small.jpg");
+}
+
+#JMFodder {
+    background-image: url("../images/Projects-Pics/JMF_single_A_ONLINE_1080x1080px.jpg");
+}
+
+#Luwum {
+    background-image: url("../images/Projects-Pics/Luwum.jpg");
+}
+
+#SenorFin {
+    background-image: url("../images/Projects-Pics/Senor-Fin.jpg");
+
+}
+
+#ToneSquad {
+    background-image: url("../images/Projects-Pics/Tone\ Squad.jpg");
+}
+
+#Supertown {
+    background-image: url("../images/Projects-Pics/supertown.jpeg");
+}
+
+#HatHair {
+    background-image: url("../images/Projects-Pics/Hat\ Hair.jpeg");
+}
+
+#Peg {
+    background-image: url("../images/Projects-Pics/Peg.jpeg");
+}
+
+#JonnyG {
+    background-image: url("../images/Projects-Pics/Jonny\ G\ and\ the\ Music\ Factory.jpeg");
+}
+
+#JoeWaine {
+    background-image: url("../images/Projects-Pics/Joe\ Waine.jpeg");
+}
+
+#RachelEwen {
+    background-image: url("../images/Projects-Pics/rachel.jpeg");
+}
+
+#BabyJessica {
+    background-image: url("../images/Projects-Pics/bbj.jpeg");
+}
+
+.pic:hover p {
+    font-size: 20px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding: 180px 0;
+    background-color: rgba(255, 255, 255, .7);
+    color: black;
+}
+
+#SenorFin:hover p {
+    padding: 113px 0;
+}
+
+#ThePassenger:hover p {
+    padding: 238.5px 0;
+}
+
+#Peg:hover p {
+    padding: 130px 0;
+}
+
+#JonnyG:hover p {
+    padding: 113px 0;
+}
+
+@media (max-width: 600px) {
+    .link {
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+    }
+
+    .sf-link {
+        height: 199.5px;
+    }
+
+    .pass-link {
+        height: 388px;
+    }
+
+    .peg-link {
+        height: 225px;
+    }
+
+    .jg-link {
+        height: 199.5px;
+    }
+
+    .pic:hover p {
+        padding: 130px 0;
+    }
+
+    #SenorFin:hover p {
+        padding: 80px 0;
+    }
+
+    #ThePassenger:hover p {
+        padding: 174px 0;
+    }
+
+    #Peg:hover p {
+        padding: 93px 0;
+    }
+
+    #JonnyG:hover p {
+        padding: 81px 0;
+    }
+}

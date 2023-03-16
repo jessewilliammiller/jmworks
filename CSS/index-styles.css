@@ -1,0 +1,115 @@
+#splashContent {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: -20px;
+    margin-bottom: -5px;
+}
+
+#buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+/* #linktree,
+#Patreon {
+    display: block;
+    font-size: 16px;
+    border: 2px solid black;
+    width: 120px;
+    padding: 5px 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 25px;
+} */
+
+.splashBandcamp {
+    border: 0;
+    width: 700px;
+    height: 900px;
+    margin-bottom: 10px;
+}
+
+#ur-halo {
+    margin-top: -82px;
+    height: 810px;
+}
+
+.button {
+    position: relative;
+    display: block;
+    padding: 5px 10px;
+    margin: 10px;
+    border: 1px dotted black;
+    color: black;
+    font-size: 16px;
+    border-radius: 30px;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+    margin-bottom: 25px;
+    width: 120px;
+    /* background-color: white; */
+}
+
+.button::before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    background: black;
+    transition: transform .3s;
+    
+}
+
+.button:hover {
+    color: white;
+}
+
+
+.button01::before {
+    transform-origin: center center;
+    transform: scale(0, 1);
+    border-radius: 30px;
+}
+
+.button01:hover::before {
+    transform: scale(1, 1);
+    border-radius: 30px;
+    color: white;
+}
+
+#index-music-div {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+
+    #linktree,
+    #Patreon {
+        /* font-size: 30px;
+        min-width: 185.2px; */
+        margin-top: 15px;
+    }
+
+    .splashBandcamp {
+        border: 0;
+        width: 333px;
+        height: 390px;
+    }
+
+    #ur-halo {
+        margin: 0;
+        height: 390px;
+    }
+}

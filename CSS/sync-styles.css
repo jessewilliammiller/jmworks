@@ -1,0 +1,142 @@
+hr {
+    width: 300px;
+    margin: 40px auto;
+}
+
+p {
+    font-size: 16px;
+    margin: auto 100px;
+    margin-top: 15px;
+}
+
+/* p:nth-child(1) {
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+p:nth-child(4) {
+    margin-top: 50px;
+    text-align: right;
+    margin-bottom: 50px;
+    font-style: italic;
+    font-size: 10px;
+} */
+p:nth-child(2) {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+p:nth-child(3) {
+    font-size: 12px;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+#syncBody {
+    margin: 0px 20px;
+}
+
+#syncGrid {
+    display: grid;
+    grid-template-columns: 45% 2% 45%;
+    column-gap: 4%;
+    margin: 10px auto;
+}
+
+#syncGridSpacer {
+    width: 0;
+    border: .5px solid black;
+}
+
+#passengersPoster {
+    height: 500px;
+    margin-bottom: 40px;
+}
+
+#passengersVideo {
+    width: 560px;
+    height: 315px;
+}
+
+.disco-beats {
+    width: 480px;
+    height: 295px;
+}
+
+@media (max-width: 850px) {
+    #syncGrid {
+        display: inline;
+        grid-template-columns: 45% 2% 45%;
+        column-gap: 4%;
+        margin: 60px auto;
+    }
+
+    /* #passengersPoster {
+        height: 1000px;
+        margin-bottom: 40px;
+    } */
+}
+
+@media (max-width: 800px) {
+
+    p {
+        margin: 10px 5px;
+        font-size: 14px;
+    }
+
+    p:nth-child(2) {
+         text-align: left;
+        /* margin-bottom: 40px;  */
+        font-size: 12px;
+    }
+
+    
+    p:nth-child(1) {
+        text-align: right;
+        /* margin-bottom: 40px; */
+    }
+
+  
+
+    p:nth-child(3) {
+ 
+        text-align: right;
+        /* margin-top: 15px;       font-size: 12px; */
+    }
+/*
+    p:nth-child(4) {
+        margin-top: 50px;
+        text-align: right;
+        margin-bottom: 50px;
+        font-style: italic;
+        font-size: 10px;
+    } */
+
+    #passengersPoster {
+        height: 400px;
+        margin-bottom: 40px;
+    }
+
+    #passengersVideo {
+        width: 310px;
+        height: 174px;
+    }
+
+    .disco-beats {
+        height: 300px;
+        width: 300px;
+
+    }
+
+    #syncGridSpacer {
+        border: none;
+    }
+    hr {
+        width: 300px;
+        margin: 0 auto;
+    }
+}

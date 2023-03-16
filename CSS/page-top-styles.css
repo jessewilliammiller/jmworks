@@ -1,0 +1,213 @@
+* {
+    text-align: center;
+    font-family: "PT Mono"
+}
+
+#BI {
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: .8;
+}
+
+#JMHTitle {
+    font-size: 36px;
+    /* margin-bottom: -30px; */
+    /* margin-top: 0px; */
+}
+
+/* #border {
+    width: 400px; */
+    /* position: absolute;
+    margin-left: auto;
+    margin-right: 100px;
+    left: 0;
+    right: 0;
+    text-align: center; */
+    /* margin-top: -40px; */
+    /* margin-bottom -50px; */
+    /* opacity: .4;
+    margin-top: -20px;
+} */
+
+#JMHSubtitle {
+    font-size: 24px;
+}
+
+#JMHeader {
+    text-decoration: none;
+    opacity: .8;
+}
+
+#JMHTitle,
+#JMHSubtitle {
+    /* margin: 10px 0; */
+    color: black;
+    /* margin-bottom: 17px; */
+}
+
+.nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+    margin: 0px 25%;
+    /* margin-bottom: -35px; */
+    margin-top: -35px;
+}
+
+.nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+.nav a:active {
+    animation: disappear .1s;
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+.nav span {
+    font-size: 27px;
+    opacity: .5;
+}
+
+#aboutBottom {
+    /* width: 400px; */
+    margin: 12.5px auto;
+    margin-bottom: 0;
+    /* border: 5px solid black; */
+    border-radius: 50px;
+    /* background-color: white; */
+}
+
+#aboutBottom h2 {
+    font-size: 16px;
+}
+
+#social-div {
+    display: flex;
+    justify-content: center;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 2px;
+    transition: 0.3s;
+}
+
+
+.social:hover {
+    filter: invert(1);
+}
+
+.social:active {
+    animation: disappear .1s;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 250px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+
+
+@media (max-width: 600px) {
+
+    #JMHTitle {
+        font-size: 32px;
+        /* margin-top: -42.5px; */
+    }
+
+    .nav {
+        margin: 0;
+        gap: 0;
+        padding: 0;
+        margin-top: -20px;
+    }
+
+    .nav a {
+        font-size: 12px;
+        text-decoration: none;
+        color: black;
+    }
+
+    .nav span {
+        font-size: 22px;
+    }
+
+    #aboutBottom h2 {
+        font-size: 10px;
+        margin-bottom: 0;
+    }
+
+    #border {
+        width: 343px;
+        /* position: absolute;
+        margin-lt: auto;
+        margin-right: 100px;
+        left: 0;
+        right: 0;
+        text-align: center; */
+        margin-top: -21px;
+        /* margin-bottom -50px; */
+        /* opacity: .8; */
+    }
+
+}
