@@ -1,6 +1,7 @@
 * {
     text-align: center;
-    font-family: "PT Mono"
+    font-family: "PT Mono";
+    cursor: pointer;
 }
 
 #BI {
@@ -17,8 +18,11 @@
 
 #JMHTitle {
     font-size: 36px;
-    /* margin-bottom: -30px; */
-    /* margin-top: 0px; */
+    transition: 3s;
+}
+
+#JMHTitle:hover {
+    color: rgb(106, 106, 106);
 }
 
 /* #border {
@@ -72,7 +76,7 @@
 
 .nav a:hover {
     color: white;
-    cursor: help;
+ 
 }
 
 .nav a:active {
@@ -97,7 +101,6 @@
 
 .nav span:hover {
     color: white;
-    cursor: default;
 }
 
 #aboutBottom {
