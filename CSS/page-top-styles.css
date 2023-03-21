@@ -18,11 +18,11 @@
 
 #JMHTitle {
     font-size: 36px;
-    transition: 3s;
+    transition: 6s;
 }
 
 #JMHTitle:hover {
-    color: rgb(106, 106, 106);
+    opacity: 0;
 }
 
 /* #border {
