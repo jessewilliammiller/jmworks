@@ -1,7 +1,6 @@
 * {
     text-align: center;
-    font-family: "PT Mono";
-    cursor: help;
+    font-family: "PT Mono"
 }
 
 #BI {
@@ -92,11 +91,12 @@
 .nav span {
     font-size: 27px;
     opacity: .5;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 .nav span:hover {
     color: white;
+    cursor: default;
 }
 
 #aboutBottom {
