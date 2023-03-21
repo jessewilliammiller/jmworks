@@ -72,6 +72,7 @@
 
 .nav a:hover {
     color: white;
+    cursor: help;
 }
 
 .nav a:active {
