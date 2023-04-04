@@ -3,7 +3,7 @@
     height: 100vh;
 }
 
-#video-parent-div{
+#video-parent-div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@
     height: 315px;
 }
 
-.vidBtn{
+.vidBtn {
     height: 40px;
 }
 
