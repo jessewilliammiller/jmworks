@@ -28,14 +28,28 @@
     height: 40px;
 }
 
-@media (max-width: 710px) {
+@media (max-width: 555px) {
+    #video-parent-div{
+        gap: 10px;
+    }
+
     #vid-container > .music-vid {
-        /* min-width: 80%; */
-        width: 280px;
-        height: 157.5px;
+        height: 249px;
     }
     .vidBtn {
         font-size: 10px;
         height: 30px;
+    }
+}
+
+@media (max-width: 450px) {
+    #vid-container > .music-vid {
+        height: 178px;
+    }
+}
+
+@media (max-width: 380px) {
+    #vid-container > .music-vid {
+        height: 148px;
     }
 }
