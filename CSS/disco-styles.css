@@ -26,6 +26,8 @@
 
 .vidBtn {
     height: 40px;
+    color: black;
+    border-radius: 0;
 }
 
 @media (max-width: 555px) {
