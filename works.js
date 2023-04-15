@@ -46,7 +46,7 @@ const allWorks = [
     "JM Fodder",
     "Songriter/Producer/Mixing/Mastering",
     "2022",
-    "https://jmfodder.bandcamp.com/album/kinda-sick"
+    "https://jmfodder.bandcamp.com/album/unreleased-songs-2016-2020"
   ),
   new Work(
     "images/works-album-art/driveoverhere.jpg",
@@ -113,7 +113,7 @@ allWorks.map((work) => {
 const worksContainer = document.getElementById('works-container');
 
 const worksHtml = allWorks.map(work => `
-  <div class="work-card">
+  <a href="${work.link}" target="_blank" class="work-card">
     <img src="${work.art}" alt="${work.title}">
     <div class="work-details">
       <h3>${work.title}<br>
@@ -121,9 +121,9 @@ const worksHtml = allWorks.map(work => `
       </h3>
       <p>${work.artist}</p>
       <p>${work.jmRole}</p>
-      <a href="${work.link}" target="_blank">Listen</a>
     </div>
-  </div>
+  </a>
 `).join('');
 
 worksContainer.innerHTML = worksHtml;
+
