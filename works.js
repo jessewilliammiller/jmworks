@@ -7,9 +7,11 @@ function Work(art, title, artist, jmRole, year, link) {
   this.link = link;
 }
 
+const artPath = "images/works-album-art"
+
 const allWorks = [
   new Work(
-    "images/works-album-art/jmfodder.jpg",
+    `${artPath}/ourfodder.jpg`,
     "Our Fodder",
     "JM Fodder",
     "Composer/Producer/Mixing",
@@ -17,7 +19,7 @@ const allWorks = [
     "https://jmfodder.bandcamp.com/album/our-fodder"
   ),
   new Work(
-    "images/works-album-art/sideshows.jpg",
+    `${artPath}/sideshows.jpg`,
     "Sideshows",
     "Peg",
     "Gutar/Vocals",
@@ -25,7 +27,7 @@ const allWorks = [
     "https://pegtheband.bandcamp.com/album/sideshows"
   ),
   new Work(
-    "images/works-album-art/kickflipthedevil.jpg",
+    `${artPath}/kickflipthedevil.jpg`,
     "Kickflip the Devil (Single)",
     "Joe Waine",
     "Mixing/Mastering/Guitar",
@@ -33,7 +35,7 @@ const allWorks = [
     "https://joewaineband.bandcamp.com/track/kickflip-the-devil"
   ),
   new Work(
-    "images/works-album-art/kindasick.jpg",
+    `${artPath}/kindasick.jpg`,
     "Kinda Sick b/w Never Coming Down",
     "JM Fodder",
     "Songwriter/Producer",
@@ -41,7 +43,7 @@ const allWorks = [
     "https://jmfodder.bandcamp.com/album/kinda-sick"
   ),
   new Work(
-    "images/works-album-art/unreleasedsongs.jpg",
+    `${artPath}/unreleasedsongs.jpg`,
     "Unreleased Songs 2016-2020",
     "JM Fodder",
     "Songriter/Producer/Mixing/Mastering",
@@ -49,7 +51,7 @@ const allWorks = [
     "https://jmfodder.bandcamp.com/album/unreleased-songs-2016-2020"
   ),
   new Work(
-    "images/works-album-art/driveoverhere.jpg",
+    `${artPath}/driveoverhere.jpg`,
     "Drive Over Here bw Suspended Disbelief",
     "JM Fodder",
     "Songwriter/Producer",
@@ -57,7 +59,7 @@ const allWorks = [
     "https://jmfodder.bandcamp.com/album/drive-over-here-suspended-disbelief"
   ),
   new Work(
-    "images/works-album-art/10moods.jpg",
+    `${artPath}/10moods.jpg`,
     "10 Moods",
     "Tone Squad",
     "Songwriter/Producer/Mixing/Mastering",
@@ -65,7 +67,7 @@ const allWorks = [
     "https://open.spotify.com/album/29mjCPf7fctHNt7L3QCC1m?si=UgndKI3VT1yDA7srTCY3pQ"
   ),
   new Work(
-    "images/works-album-art/likeamemory.jpg",
+    `${artPath}/likeamemory.jpg`,
     "Like A Memory",
     "Supertown",
     "Songwriter/Producer/Mixing/Mastering",
@@ -73,7 +75,7 @@ const allWorks = [
     "https://supertown100.bandcamp.com/album/like-a-memory"
   ),
   new Work(
-    "images/works-album-art/unclejessesbass.jpg",
+    `${artPath}/unclejessesbass.jpg`,
     "Uncle Jesse's Bass",
     "JM Fodder",
     "Songwriter/Producer",
@@ -81,7 +83,7 @@ const allWorks = [
     "https://jmfodder.bandcamp.com/album/uncle-jesses-bass"
   ),
   new Work(
-    "images/works-album-art/inconcert.jpg",
+    `${artPath}/inconcert.jpg`,
     "In Concert",
     "Señor Fin",
     "Guitar/Vocals/Producer",
@@ -89,26 +91,122 @@ const allWorks = [
     "https://senorfin.bandcamp.com/track/in-concert"
   ),
   new Work(
-    "images/works-album-art/songsimade.jpg",
+    `${artPath}/songsimade.jpg`,
     "Songs I Made on My Computer (EP)",
     "JM Fodder",
-    "Guitar/Producer",
+    "Songwriter/Producer",
     "2020",
     "https://jmfodder.bandcamp.com/album/songs-i-made-on-my-computer-ep"
   ),
   new Work(
-    "images/works-album-art/personalitytest.jpg",
+    `${artPath}/personalitytest.jpg`,
     "Personality Test (single)",
     "JM Fodder",
-    "Guitar/Producer",
+    "Songwriter/Producer",
     "2020",
     "https://jmfodder.bandcamp.com/track/personality-test-single"
+  ),
+  new Work(
+    `${artPath}/LUWUM.jpg`,
+    "LUWUM",
+    "JM Fodder",
+    "Songwriter/Producer",
+    "2020",
+    "https://jmfodder.bandcamp.com/album/luwum"
+  ),
+  new Work(
+    `${artPath}/2000andwhat.jpg`,
+    "2000 and what",
+    "Supertown",
+    "Songwriter/Producer/Mixing/Mastering",
+    "2020",
+    "https://supertown100.bandcamp.com/album/2000-and-what"
+  ),
+  new Work(
+    `${artPath}/neways.jpg`,
+    "neways... (Single)",
+    "Supertown",
+    "Songwriter/Producer/Mixing/Mastering",
+    "2020",
+    "https://supertown100.bandcamp.com/track/neways"
+  ),
+  new Work(
+    `${artPath}/up2myheart.jpg`,
+    "Up 2 My Heart (Single)",
+    "Supertown",
+    "Songwriter/Producer/Mixing/Mastering",
+    "2020",
+    "https://open.spotify.com/album/1jPwSig4KICzjrgXEhBJ5L?si=xQVzpSJGSNKDk_LVduBu1w"
+  ),
+  new Work(
+    `${artPath}/passenger.png`,
+    "The Passenger (Original Score)",
+    "Jesse Miller",
+    "Composer/Producer/Mixing",
+    "2020",
+    "https://youtu.be/rRCRL8TNoVA"
+  ),
+  new Work(
+    `${artPath}/hardlyalone.jpg`,
+    "Hardly Alone",
+    "Señor Fin",
+    "Songwriter/Guitar/Vocals/Producer",
+    "2019",
+    "https://youtu.be/rRCRL8TNoVA"
+  ),
+  new Work(
+    `${artPath}/welcometo.jpg`,
+    "Welcome To",
+    "Supertown",
+    "Songwriter/Producer/Mixing/Mastering",
+    "2019",
+    "https://open.spotify.com/album/0UKvuOcSo8EyRQZcUGCz03?si=D83QdbsyRKOViXdmkn26ng"
+  ),
+  new Work(
+    `${artPath}/cry.jpg`,
+    "Cry (EP)",
+    "Baby Jessica",
+    "Keys/Guitar",
+    "2019",
+    "https://babyjessica.bandcamp.com/album/cry"
+  ),
+  new Work(
+    `${artPath}/spiritgrows.jpg`,
+    "Spirit Grows, Spirit Shakes",
+    "JM Fodder",
+    "Songwriter/Producer",
+    "2018",
+    "https://jmfodder.bandcamp.com/album/spirit-grows-spirit-shakes"
+  ),
+  new Work(
+    `${artPath}/hathair.jpg`,
+    "Hat Hair",
+    "Hat Hair",
+    "Guitar/Vocals/Producer/Songwriter/Mixing",
+    "2018",
+    "https://hathair.bandcamp.com/album/hat-hair"
+  ),
+  new Work(
+    `${artPath}/jazzy.jpg`,
+    "Jazzy",
+    "Señor Fin",
+    "Songwriter/Guitar/Vocals/Producer",
+    "2017",
+    "https://senorfin.bandcamp.com/album/jazzy"
+  ),
+  new Work(
+    `${artPath}/cakedrink.jpg`,
+    "Cake Drink",
+    "Señor Fin",
+    "Songwriter/Guitar/Vocals/Producer",
+    "2016",
+    "https://senorfin.bandcamp.com/album/cake-drink"
   )
 ]
 
-allWorks.map((work) => {
-  console.log(Object.values(work))
-})
+// allWorks.map((work) => {
+//   console.log(Object.values(work))
+// })
 
 const worksContainer = document.getElementById('works-container');
 
@@ -116,11 +214,12 @@ const worksHtml = allWorks.map(work => `
   <a href="${work.link}" target="_blank" class="work-card">
     <img src="${work.art}" alt="${work.title}">
     <div class="work-details">
+      <p>${work.jmRole}</p>
       <h3>${work.title}<br>
         <small>[${work.year}]</small>
       </h3>
-      <p>${work.artist}</p>
-      <p>${work.jmRole}</p>
+      <p>by ${work.artist}</p>
+      
     </div>
   </a>
 `).join('');
