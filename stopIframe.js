@@ -107,9 +107,9 @@ const scrollLeftButton = document.getElementById('scroll-left-button');
 const scrollRightButton = document.getElementById('scroll-right-button');
 
 scrollLeftButton.addEventListener('click', () => {
-    for (var i = ytplayerList.length; i--;) {
-        ytplayerList[i].pauseVideo();
-    }
+    // for (var i = ytplayerList.length; i--;) {
+    //     ytplayerList[i].pauseVideo();
+    // }
     if (scrollContainer.scrollLeft - (scrollContainer.scrollWidth / 13) <= 0) {
         scrollContainer.scrollLeft = scrollContainer.scrollWidth
     }
@@ -117,9 +117,9 @@ scrollLeftButton.addEventListener('click', () => {
 });
 
 scrollRightButton.onclick = () => {
-    for (var i = ytplayerList.length; i--;) {
-        ytplayerList[i].pauseVideo();
-    }
+    // for (var i = ytplayerList.length; i--;) {
+    //     ytplayerList[i].pauseVideo();
+    // }
     if (scrollContainer.scrollLeft + (scrollContainer.scrollWidth / 13) >= scrollContainer.scrollWidth) {
         scrollContainer.scrollLeft = 0
     }
