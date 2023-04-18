@@ -64,13 +64,21 @@
     margin-top: 5px;
     gap: 5px;
   }
+
   .work-card {
     width: 97%;
     padding: 5px;
   }
+
+  .work-card img {
+    width: 120px;
+    height: 120px;
+  }
+
   .work-details {
     margin-left: 6px;
   }
+
   .work-details h3 {
     font-size: 14px;
     margin-bottom: 10px;
