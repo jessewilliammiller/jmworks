@@ -14,7 +14,7 @@ const allWorks = [
     `${artPath}/ourfodder.jpg`,
     "Our Fodder",
     "JM Fodder",
-    "Composer/Producer/Mixing",
+    "Composer / Producer / Mixing",
     "2023",
     "https://jmfodder.bandcamp.com/album/our-fodder"
   ),
@@ -22,7 +22,7 @@ const allWorks = [
     `${artPath}/sideshows.jpg`,
     "Sideshows",
     "Peg",
-    "Gutar/Vocals",
+    "Gutar / Vocals",
     "2023",
     "https://pegtheband.bandcamp.com/album/sideshows"
   ),
@@ -30,7 +30,7 @@ const allWorks = [
     `${artPath}/kickflipthedevil.jpg`,
     "Kickflip the Devil (Single)",
     "Joe Waine",
-    "Mixing/Mastering/Guitar",
+    "Mixing / Mastering / Guitar",
     "2022",
     "https://joewaineband.bandcamp.com/track/kickflip-the-devil"
   ),
@@ -38,7 +38,7 @@ const allWorks = [
     `${artPath}/kindasick.jpg`,
     "Kinda Sick b/w Never Coming Down",
     "JM Fodder",
-    "Songwriter/Producer",
+    "Songwriter / Producer",
     "2022",
     "https://jmfodder.bandcamp.com/album/kinda-sick"
   ),
@@ -46,7 +46,7 @@ const allWorks = [
     `${artPath}/unreleasedsongs.jpg`,
     "Unreleased Songs 2016-2020",
     "JM Fodder",
-    "Songriter/Producer/Mixing/Mastering",
+    "Songriter / Producer / Mixing / Mastering",
     "2022",
     "https://jmfodder.bandcamp.com/album/unreleased-songs-2016-2020"
   ),
@@ -54,7 +54,7 @@ const allWorks = [
     `${artPath}/driveoverhere.jpg`,
     "Drive Over Here bw Suspended Disbelief",
     "JM Fodder",
-    "Songwriter/Producer",
+    "Songwriter / Producer",
     "2022",
     "https://jmfodder.bandcamp.com/album/drive-over-here-suspended-disbelief"
   ),
@@ -62,7 +62,7 @@ const allWorks = [
     `${artPath}/10moods.jpg`,
     "10 Moods",
     "Tone Squad",
-    "Songwriter/Producer/Mixing/Mastering",
+    "Songwriter / Producer / Mixing / Mastering",
     "2022",
     "https://open.spotify.com/album/29mjCPf7fctHNt7L3QCC1m?si=UgndKI3VT1yDA7srTCY3pQ"
   ),
@@ -70,7 +70,7 @@ const allWorks = [
     `${artPath}/likeamemory.jpg`,
     "Like A Memory",
     "Supertown",
-    "Songwriter/Producer/Mixing/Mastering",
+    "Songwriter / Producer /Mixing / Mastering",
     "2022",
     "https://supertown100.bandcamp.com/album/like-a-memory"
   ),
@@ -78,7 +78,7 @@ const allWorks = [
     `${artPath}/unclejessesbass.jpg`,
     "Uncle Jesse's Bass",
     "JM Fodder",
-    "Songwriter/Producer",
+    "Songwriter / Producer",
     "2021",
     "https://jmfodder.bandcamp.com/album/uncle-jesses-bass"
   ),
@@ -86,7 +86,7 @@ const allWorks = [
     `${artPath}/inconcert.jpg`,
     "In Concert",
     "Señor Fin",
-    "Guitar/Vocals/Producer",
+    "Guitar / Vocals / Producer",
     "2021",
     "https://senorfin.bandcamp.com/track/in-concert"
   ),
@@ -94,7 +94,7 @@ const allWorks = [
     `${artPath}/songsimade.jpg`,
     "Songs I Made on My Computer (EP)",
     "JM Fodder",
-    "Songwriter/Producer",
+    "Songwriter / Producer",
     "2020",
     "https://jmfodder.bandcamp.com/album/songs-i-made-on-my-computer-ep"
   ),
@@ -102,7 +102,7 @@ const allWorks = [
     `${artPath}/personalitytest.jpg`,
     "Personality Test (single)",
     "JM Fodder",
-    "Songwriter/Producer",
+    "Songwriter / Producer",
     "2020",
     "https://jmfodder.bandcamp.com/track/personality-test-single"
   ),
@@ -110,7 +110,7 @@ const allWorks = [
     `${artPath}/LUWUM.jpg`,
     "LUWUM",
     "JM Fodder",
-    "Songwriter/Producer",
+    "Songwriter / Producer",
     "2020",
     "https://jmfodder.bandcamp.com/album/luwum"
   ),
@@ -118,7 +118,7 @@ const allWorks = [
     `${artPath}/2000andwhat.jpg`,
     "2000 and what",
     "Supertown",
-    "Songwriter/Producer/Mixing/Mastering",
+    "Songwriter / Producer / Mixing / Mastering",
     "2020",
     "https://supertown100.bandcamp.com/album/2000-and-what"
   ),
@@ -126,7 +126,7 @@ const allWorks = [
     `${artPath}/neways.jpg`,
     "neways... (Single)",
     "Supertown",
-    "Songwriter/Producer/Mixing/Mastering",
+    "Songwriter / Producer / Mixing / Mastering",
     "2020",
     "https://supertown100.bandcamp.com/track/neways"
   ),
@@ -134,7 +134,7 @@ const allWorks = [
     `${artPath}/up2myheart.jpg`,
     "Up 2 My Heart (Single)",
     "Supertown",
-    "Songwriter/Producer/Mixing/Mastering",
+    "Songwriter / Producer / Mixing / Mastering",
     "2020",
     "https://open.spotify.com/album/1jPwSig4KICzjrgXEhBJ5L?si=xQVzpSJGSNKDk_LVduBu1w"
   ),
@@ -142,7 +142,7 @@ const allWorks = [
     `${artPath}/passenger.png`,
     "The Passenger (Original Score)",
     "Jesse Miller",
-    "Composer/Producer/Mixing",
+    "Composer / Producer / Mixing",
     "2020",
     "https://youtu.be/rRCRL8TNoVA"
   ),
@@ -150,7 +150,7 @@ const allWorks = [
     `${artPath}/hardlyalone.jpg`,
     "Hardly Alone",
     "Señor Fin",
-    "Songwriter/Guitar/Vocals/Producer",
+    "Songwriter / Guitar / Vocals / Producer",
     "2019",
     "https://youtu.be/rRCRL8TNoVA"
   ),
@@ -158,7 +158,7 @@ const allWorks = [
     `${artPath}/welcometo.jpg`,
     "Welcome To",
     "Supertown",
-    "Songwriter/Producer/Mixing/Mastering",
+    "Songwriter / Producer / Mixing / Mastering",
     "2019",
     "https://open.spotify.com/album/0UKvuOcSo8EyRQZcUGCz03?si=D83QdbsyRKOViXdmkn26ng"
   ),
@@ -166,7 +166,7 @@ const allWorks = [
     `${artPath}/cry.jpg`,
     "Cry (EP)",
     "Baby Jessica",
-    "Keys/Guitar",
+    "Keys / Guitar",
     "2019",
     "https://babyjessica.bandcamp.com/album/cry"
   ),
@@ -174,7 +174,7 @@ const allWorks = [
     `${artPath}/spiritgrows.jpg`,
     "Spirit Grows, Spirit Shakes",
     "JM Fodder",
-    "Songwriter/Producer",
+    "Songwriter / Producer",
     "2018",
     "https://jmfodder.bandcamp.com/album/spirit-grows-spirit-shakes"
   ),
@@ -182,7 +182,7 @@ const allWorks = [
     `${artPath}/hathair.jpg`,
     "Hat Hair",
     "Hat Hair",
-    "Guitar/Vocals/Producer/Songwriter/Mixing",
+    "Guitar / Vocals / Producer / Songwriter / Mixing",
     "2018",
     "https://hathair.bandcamp.com/album/hat-hair"
   ),
@@ -190,7 +190,7 @@ const allWorks = [
     `${artPath}/jazzy.jpg`,
     "Jazzy",
     "Señor Fin",
-    "Songwriter/Guitar/Vocals/Producer",
+    "Songwriter / Guitar / Vocals / Producer",
     "2017",
     "https://senorfin.bandcamp.com/album/jazzy"
   ),
@@ -198,9 +198,65 @@ const allWorks = [
     `${artPath}/cakedrink.jpg`,
     "Cake Drink",
     "Señor Fin",
-    "Songwriter/Guitar/Vocals/Producer",
+    "Songwriter / Guitar / Vocals / Producer",
     "2016",
     "https://senorfin.bandcamp.com/album/cake-drink"
+  ),
+  new Work(
+    `${artPath}/thinktank.jpg`,
+    "Think Tank",
+    "JM Fodder",
+    "Songwriter / Producer / Mixing",
+    "2016",
+    "https://jmfodder.bandcamp.com/album/think-tank"
+  ),
+  new Work(
+    `${artPath}/placesworn.jpg`,
+    "Places Worn",
+    "JM Fodder",
+    "Songwriter / Producer / Mixing / Mastering",
+    "2015",
+    "https://jmfodder.bandcamp.com/album/places-worn"
+  ),
+  new Work(
+    `${artPath}/theflaminggiraffe.jpg`,
+    "The Flaming Giraffe",
+    "JM Fodder",
+    "Songwriter / Producer / Mixing / Mastering",
+    "2014",
+    "https://jmfodder.bandcamp.com/album/the-flaming-giraffe"
+  ),
+  new Work(
+    `${artPath}/havefun.jpg`,
+    "Have Fun, It's a Party",
+    "JM Fodder",
+    "Guitar / Vocals / Producer",
+    "2014",
+    "https://hathair.bandcamp.com/album/have-fun-its-a-party"
+  ),
+  new Work(
+    `${artPath}/spinningcircles.jpg`,
+    "Spinning Circles",
+    "Señor Fin",
+    "Songwriter / Guitar / Vocals / Producer",
+    "2013",
+    "https://senorfin.bandcamp.com/album/spinning-circles"
+  ),
+  new Work(
+    `${artPath}/liquidworld.jpg`,
+    "Liquid World / Killing Time",
+    "JM Fodder",
+    "Songwriter / Producer / Mixing / Mastering",
+    "2013",
+    "https://jmfodder.bandcamp.com/album/liquid-world-killing-time"
+  ),
+  new Work(
+    `${artPath}/underneath.jpg`,
+    "Underneath",
+    "Señor Fin",
+    "Songwriter / Guitar / Vocals / Producer",
+    "2012",
+    "https://senorfin.bandcamp.com/album/underneath-2"
   )
 ]
 
