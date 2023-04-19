@@ -22,7 +22,7 @@ const allWorks = [
     `${artPath}/sideshows.jpg`,
     "Sideshows",
     "Peg",
-    "Gutar / Vocals",
+    "Guitar / Vocals",
     "2023",
     "https://pegtheband.bandcamp.com/album/sideshows"
   ),
@@ -46,7 +46,7 @@ const allWorks = [
     `${artPath}/unreleasedsongs.jpg`,
     "Unreleased Songs 2016-2020",
     "JM Fodder",
-    "Songriter / Producer / Mixing / Mastering",
+    "Songwriter / Producer / Mixing / Mastering",
     "2022",
     "https://jmfodder.bandcamp.com/album/unreleased-songs-2016-2020"
   ),
@@ -70,7 +70,7 @@ const allWorks = [
     `${artPath}/likeamemory.jpg`,
     "Like A Memory",
     "Supertown",
-    "Songwriter / Producer /Mixing / Mastering",
+    "Songwriter / Producer / Mixing / Mastering",
     "2022",
     "https://supertown100.bandcamp.com/album/like-a-memory"
   ),
