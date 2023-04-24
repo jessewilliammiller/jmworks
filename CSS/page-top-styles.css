@@ -18,11 +18,10 @@
 
 #JMHTitle {
     font-size: 36px;
-    transition: 6s;
 }
 
-#JMHTitle:hover {
-    opacity: 0;
+#JMHTitle:active {
+    animation: disappear .1s;
 }
 
 /* #border {
@@ -96,11 +95,6 @@
 .nav span {
     font-size: 27px;
     opacity: .5;
-    transition: .3s;
-}
-
-.nav span:hover {
-    color: white;
 }
 
 #aboutBottom {
