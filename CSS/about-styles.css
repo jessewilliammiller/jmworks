@@ -3,8 +3,8 @@
     flex-flow: row wrap;  
     justify-content: center;
     align-items: center;
-    gap: 40px 5%;
-    margin: 0px 2%;  
+    gap: 0 40px;
+    margin: 0;
 }
 
 #aboutBody #aboutCopy p {
@@ -13,13 +13,13 @@
 }
 
 #aboutPic {
-    margin-top: 15px;
-    width: 515px;
-    height: 500px;
+    margin-top: 10px;
+    width: 330px;
+    height: auto;
 }
 
 #aboutCopy {
-    width: 500px;
+    width: 330px;
 }
 
 hr {
@@ -27,16 +27,16 @@ hr {
 }
 
 
-@media (max-width: 1088px) {
+@media (max-width: 600px) {
     #aboutCopy {
-        width: 90%;
+        width: 280px;
     }
     #aboutPic {
-        width: 375px;
+        width: 280px;
         height: auto;
     }
-    #aboutBody {
-        gap: 0 0;
+    #aboutBody #aboutCopy p {
+        font-size: 13px;
     }
 }
 
