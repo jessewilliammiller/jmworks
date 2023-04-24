@@ -1,53 +1,41 @@
+h3 {
+    margin-top: 0;
+}
 #video-parent-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 
 #vid-container {
     display: flex;
-    overflow: hidden;
-    scroll-snap-type: x mandatory;
+    flex-direction: column;
+    gap: 10px;
     width: 560px;
 }
 
 #vid-container>.music-vid {
-    min-width: 100%;
-    scroll-snap-align: start;
     width: 560px;
     height: 315px;
 }
 
-.vidBtn {
-    height: 40px;
-    color: black;
-    border-radius: 0;
-}
-
-@media (max-width: 555px) {
-    #video-parent-div {
-        gap: 10px;
+@media (max-width: 600px) {
+    h3 {
+        margin-top: 4px;
     }
-
+    
     #vid-container>.music-vid {
-        height: 249px;
-    }
-
-    .vidBtn {
-        font-size: 10px;
-        height: 30px;
+        width: 345px;
+        height: 194px;
+        margin: auto;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 290px) {
+    
     #vid-container>.music-vid {
-        height: 178px;
-    }
-}
-
-@media (max-width: 380px) {
-    #vid-container>.music-vid {
-        height: 148px;
+        width: 280px;
+        height: 157.5px;
+        margin: auto;
     }
 }
