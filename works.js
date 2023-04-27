@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/purplenoon.jpeg`,
+    "Purple Noon",
+    "Joe Waine",
+    "Producer / Guitar / Bass",
+    "2023",
+    "https://joewaineband.bandcamp.com/track/purple-noon"
+  ),
+  new Work(
     `${artPath}/ourfodder.jpg`,
     "Our Fodder",
     "JM Fodder",
