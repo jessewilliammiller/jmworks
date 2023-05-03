@@ -1,46 +1,24 @@
 
-#showsBox {
+.showsBox {
     padding: 20px;
     padding-top: 0;
 }
 
-hr {
-    margin: 20px 5%;
-}
-
-#styledLine {
-    border: 5px double black;
-}
-
 .lilLine {
-    margin: 0 40%;
+    margin: auto;
+    width: 270px;
 }
 
-.showsMain p {
-    font-size: 16px;
-}
-
-#subtitle {
-    font-size: 20px;
-}
-
-#upcoming-shows {
+.shows-header {
     font-size: 20px;
     margin: 0;
 }
 
 .oneShow {
-    /* border: 2px dotted chartreuse; */
     margin: 10px auto;
     padding: 20px 0;
-    /* background-color: rgba(0, 255, 255, .55); */
     border-radius: 20px;
 }
-
-/* .oneShow:last-of-type {
-    margin-bottom: 0;
-    padding-bottom: 0;
-} */
 
 .oneShow p {
     margin: 0 7px;
@@ -48,14 +26,4 @@ hr {
 
 .oneShow p:nth-child(n+2) {
     font-size: small;
-}
-
-#pastShows {
-    margin-top: 30px;
-}
-
-@media (max-width: 1250px) {
-    .lilLine {
-        margin: 0 10%;
-    }
 }
