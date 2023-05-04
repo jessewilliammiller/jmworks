@@ -12,7 +12,7 @@ const artPath = "images/works-album-art"
 const allWorks = [
   new Work(
     `${artPath}/purplenoon.jpeg`,
-    "Purple Noon",
+    "Purple Noon (single)",
     "Joe Waine",
     "Producer / Guitar / Bass",
     "2023",
