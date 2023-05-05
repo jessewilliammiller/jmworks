@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/echochamber.jpg`,
+    "Echo Chamber (Remix)",
+    "Mason Lynass/JM Fodder",
+    "Remixer",
+    "2023",
+    "https://masonlynass.bandcamp.com/album/music-for-an-ordinary-day-remixes"
+  ),
+  new Work(
     `${artPath}/purplenoon.jpeg`,
     "Purple Noon (single)",
     "Joe Waine",
