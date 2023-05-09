@@ -10,7 +10,7 @@ const allShows = [
     // false indicates past show
     // add a space within the quotes by adding <br/>
     new Show(
-        true,
+        false,
         "May 6: JM Fodder @ Gallery 1412 w/ Patrick Toney",
         "Seattle, WA 2023"
     ),
@@ -28,7 +28,7 @@ const allShows = [
     ),
     new Show(
         true,
-        "June 3th w/ Rachel Ewen @ So Far Sounds (undisclosed location)",
+        "June 3th w/ Rachel Ewen @ River (SoFar Sounds)",
         "Seattle, WA, 2023"
     ),
     new Show(
