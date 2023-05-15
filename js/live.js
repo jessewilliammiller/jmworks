@@ -43,6 +43,16 @@ const allShows = [
         "Seattle, WA 2023"
     ),
     new Show(
+        true,
+        "July 9th w/ Peg & Jonny G (I'm playing in both bands) @ Add-A Ball",
+        "Seattle, WA 2023"
+    ),
+    new Show(
+        true,
+        "August 18-20 (specific day TBD) JM Fodder @ Wainestock (Volunteer Park)",
+        "Seattle, WA 2023"
+    ),
+    new Show(
         false,
         "April 27 w/ Joe Waine & Crushing @ Fremont Abbey",
         "Seattle, WA 2023"
