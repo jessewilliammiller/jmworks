@@ -15,7 +15,7 @@ const allShows = [
         "Seattle, WA 2023"
     ),
     new Show(
-        true,
+        false,
         "May 13 JM Fodder @ Bad Bar",
         "Seattle, WA 2023"
     ),
