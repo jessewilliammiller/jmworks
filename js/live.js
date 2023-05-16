@@ -49,7 +49,7 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 18-20 (specific day TBD) JM Fodder @ Wainestock (Volunteer Park)",
+        "August 19 (time TBA) JM Fodder @ Wainestock (Volunteer Park)",
         "Seattle, WA 2023"
     ),
     new Show(
