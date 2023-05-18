@@ -22,9 +22,9 @@ const allShows = [
     new Show(
         true,
         "May 21st -w /Joe Waine @ Sunset Tavern",
-        "Seattle, WA, 2023", 
+        "Seattle, WA, 2023",
         "https://www.ticketweb.com/event/moss-joe-waine-drench-fries-sunset-tavern-tickets/13133605?pl=sunset&REFID=clientsitewp"
-        
+
     ),
     new Show(
         true,
@@ -34,13 +34,19 @@ const allShows = [
     new Show(
         true,
         "June 4th w/ Joe Waine @ Royal Room",
-        "Seattle, WA 2023", 
+        "Seattle, WA 2023",
         "https://www.strangertickets.com/events/138600102/lake-joe-waine-generifus"
     ),
     new Show(
         true,
-        "June 24th, 2023 JM Fodder @ Woodland Theatre",
+        "June 24th, JM Fodder @ Woodland Theatre",
         "Seattle, WA 2023"
+    ),
+    new Show(
+        true,
+        "June 29th, J.M. Fodder @ Sofar Sounds (secret location)",
+        "Seattle, WA 2023",
+        "https://www.sofarsounds.com/events/48023?utm_medium=email&utm_source=transactional&utm_campaign=ArtistConfirmation"
     ),
     new Show(
         true,
