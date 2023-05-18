@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/letmein.jpeg`,
+    "Let Me In",
+    "Rachel Ewen",
+    "Producer",
+    "2023",
+    "https://rachelewen.bandcamp.com/track/let-me-in"
+  ),
+  new Work(
     `${artPath}/echochamber.jpg`,
     "Echo Chamber (Remix)",
     "Mason Lynass/JM Fodder",
