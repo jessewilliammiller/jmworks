@@ -39,6 +39,12 @@ const allShows = [
     ),
     new Show(
         true,
+        "June 10th J.M. Fodder @ Casa Del Xolo",
+        "Seattle, WA 2023",
+        "https://www.casadelxolo.com/"
+    ),
+    new Show(
+        true,
         "June 24th, JM Fodder @ Woodland Theatre",
         "Seattle, WA 2023"
     ),
@@ -56,6 +62,11 @@ const allShows = [
     new Show(
         true,
         "August 19 (time TBA) JM Fodder @ Wainestock (Volunteer Park)",
+        "Seattle, WA 2023"
+    ),
+    new Show(
+        true,
+        "August 18-20 (time TBA) Joe Waine band @ Wainestock (Volunteer Park)",
         "Seattle, WA 2023"
     ),
     new Show(
