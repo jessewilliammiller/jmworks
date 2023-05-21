@@ -11,12 +11,12 @@ const allShows = [
     // add a space within the quotes by adding <br/>
     new Show(
         false,
-        "May 6: JM Fodder @ Gallery 1412 w/ Patrick Toney",
+        "May 6: J.M. Fodder @ Gallery 1412 w/ Patrick Toney",
         "Seattle, WA 2023"
     ),
     new Show(
         false,
-        "May 13 JM Fodder @ Bad Bar",
+        "May 13 J.M. Fodder @ Bad Bar",
         "Seattle, WA 2023"
     ),
     new Show(
@@ -45,12 +45,12 @@ const allShows = [
     ),
     new Show(
         true,
-        "June 24th, JM Fodder @ Woodland Theatre",
+        "June 24th, J.M. Fodder @ Woodland Theatre",
         "Seattle, WA 2023"
     ),
     new Show(
         true,
-        "June 29th, J.M. Fodder @ Sofar Sounds (secret location)",
+        "June 29th, J.M.Fodder @ Sofar Sounds (secret location)",
         "Seattle, WA 2023",
         "https://www.sofarsounds.com/events/48023?utm_medium=email&utm_source=transactional&utm_campaign=ArtistConfirmation"
     ),
@@ -61,12 +61,7 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 19 (time TBA) JM Fodder @ Wainestock (Volunteer Park)",
-        "Seattle, WA 2023"
-    ),
-    new Show(
-        true,
-        "August 18-20 (time TBA) Joe Waine band @ Wainestock (Volunteer Park)",
+        "August 19 (times TBA) J.M. Fodder / Joe Waine Band @ Wainestock (Volunteer Park)",
         "Seattle, WA 2023"
     ),
     new Show(
