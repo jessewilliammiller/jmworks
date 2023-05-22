@@ -20,7 +20,7 @@ const allShows = [
         "Seattle, WA 2023"
     ),
     new Show(
-        true,
+        false,
         "May 21st -w /Joe Waine @ Sunset Tavern",
         "Seattle, WA, 2023",
         "https://www.ticketweb.com/event/moss-joe-waine-drench-fries-sunset-tavern-tickets/13133605?pl=sunset&REFID=clientsitewp"
