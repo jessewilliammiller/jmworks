@@ -253,7 +253,7 @@ const allWorks = [
   new Work(
     `${artPath}/havefun.jpg`,
     "Have Fun, It's a Party",
-    "JM Fodder",
+    "Hat Hair",
     "Guitar / Vocals / Producer",
     "2014",
     "https://hathair.bandcamp.com/album/have-fun-its-a-party"

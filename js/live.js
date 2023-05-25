@@ -39,12 +39,6 @@ const allShows = [
     ),
     new Show(
         true,
-        "June 10th J.M. Fodder @ Casa Del Xolo",
-        "Seattle, WA 2023",
-        "https://www.casadelxolo.com/"
-    ),
-    new Show(
-        true,
         "June 24th, J.M. Fodder @ Woodland Theatre",
         "Seattle, WA 2023"
     ),
