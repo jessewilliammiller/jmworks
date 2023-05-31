@@ -29,7 +29,8 @@ const allShows = [
     new Show(
         true,
         "June 3th w/ Rachel Ewen @ River (SoFar Sounds)",
-        "Seattle, WA, 2023"
+        "Seattle, WA, 2023",
+        "https://www.sofarsounds.com/events/48013"
     ),
     new Show(
         true,
