@@ -45,19 +45,14 @@ const allShows = [
     ),
     new Show(
         true,
-        "June 29th, J.M.Fodder @ Sofar Sounds (secret location)",
-        "Seattle, WA 2023",
-        "https://www.sofarsounds.com/events/48023?utm_medium=email&utm_source=transactional&utm_campaign=ArtistConfirmation"
-    ),
-    new Show(
-        true,
-        "July 9th w/ Peg & Jonny G (I'm playing in both bands) @ Add-A Ball",
-        "Seattle, WA 2023"
+        "July 9th w/ Peg & Jonny G (I'm playing in both bands) @ Add-A Ball (Arcade in Fremont",
+        "Seattle, WA 2023 - FREE SHOW!!!"
     ),
     new Show(
         true,
         "August 19 (times TBA) J.M. Fodder / Joe Waine Band @ Wainestock (Volunteer Park)",
-        "Seattle, WA 2023"
+        "Seattle, WA 2023",
+        "https://wainestock.com/"
     ),
     new Show(
         false,
