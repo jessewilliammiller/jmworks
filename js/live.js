@@ -9,39 +9,11 @@ const allShows = [
     // true indicates upcoming show
     // false indicates past show
     // add a space within the quotes by adding <br/>
-    new Show(
-        false,
-        "May 6: J.M. Fodder @ Gallery 1412 w/ Patrick Toney",
-        "Seattle, WA 2023"
-    ),
-    new Show(
-        false,
-        "May 13 J.M. Fodder @ Bad Bar",
-        "Seattle, WA 2023"
-    ),
-    new Show(
-        false,
-        "May 21st -w /Joe Waine @ Sunset Tavern",
-        "Seattle, WA, 2023",
-        "https://www.ticketweb.com/event/moss-joe-waine-drench-fries-sunset-tavern-tickets/13133605?pl=sunset&REFID=clientsitewp"
-
-    ),
-    new Show(
-        true,
-        "June 3th w/ Rachel Ewen @ River (SoFar Sounds)",
-        "Seattle, WA, 2023",
-        "https://www.sofarsounds.com/events/48013"
-    ),
-    new Show(
-        true,
-        "June 4th w/ Joe Waine @ Royal Room",
-        "Seattle, WA 2023",
-        "https://www.strangertickets.com/events/138600102/lake-joe-waine-generifus"
-    ),
+    
     new Show(
         true,
         "June 24th, J.M. Fodder @ Woodland Theatre",
-        "Seattle, WA 2023"
+        "Seattle, WA 2023 - DONATIONS at Door!"
     ),
     new Show(
         true,
@@ -56,18 +28,37 @@ const allShows = [
     ),
     new Show(
         false,
-        "April 27 w/ Joe Waine & Crushing @ Fremont Abbey",
+        "June 4th w/ Joe Waine @ Royal Room",
+        "Seattle, WA 2023",
+        "https://www.strangertickets.com/events/138600102/lake-joe-waine-generifus"
+    ),
+    new Show(
+        false,
+        "June 3th w/ Rachel Ewen @ River (SoFar Sounds)",
+        "Seattle, WA, 2023",
+        "https://www.sofarsounds.com/events/48013"
+    ),
+    new Show(
+        false,
+        "May 21st -w /Joe Waine @ Sunset Tavern",
+        "Seattle, WA, 2023",
+        "https://www.ticketweb.com/event/moss-joe-waine-drench-fries-sunset-tavern-tickets/13133605?pl=sunset&REFID=clientsitewp"
+
+    ),
+    new Show(
+        false,
+        "May 13 J.M. Fodder @ Bad Bar",
         "Seattle, WA 2023"
     ),
     new Show(
         false,
-        "March 31: Jonny G and the Music Factory @ Swan Dive",
-        "Portland, OR 2023"
+        "May 6: J.M. Fodder @ Gallery 1412 w/ Patrick Toney",
+        "Seattle, WA 2023"
     ),
     new Show(
         false,
-        "April 1: Jonny G and the Music Factory @ Souwester Arts",
-        "Seaview, OR 2023"
+        "April 27 w/ Joe Waine & Crushing @ Fremont Abbey",
+        "Seattle, WA 2023"
     ),
     new Show(
         false,
@@ -79,6 +70,17 @@ const allShows = [
         "April 8 - JM Fodder & Rachel Ewen @ Woodland Studios",
         "Playing guitar in Rachel Ewen's band (our first show!) and doing my improv computer music thing as JM Fodder<br/>Seattle, WA 2023"
     ),
+    new Show(
+        false,
+        "April 1: Jonny G and the Music Factory @ Souwester Arts",
+        "Seaview, OR 2023"
+    ),
+    new Show(
+        false,
+        "March 31: Jonny G and the Music Factory @ Swan Dive",
+        "Portland, OR 2023"
+    ),
+   
     new Show(
         false,
         "March 29 w/ Jonny G @ Bad Bar (Tour Kickoff!)",
