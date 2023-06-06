@@ -27,6 +27,12 @@ const allShows = [
         "https://wainestock.com/"
     ),
     new Show(
+        true,
+        "August 4th, J.M. Fodder @ New Frontier ",
+        "Tacoma, WA 2023",
+        "https://thenewfrontierlounge.com/"
+    ),
+    new Show(
         false,
         "June 4th w/ Joe Waine @ Royal Room",
         "Seattle, WA 2023",
