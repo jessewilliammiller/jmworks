@@ -102,7 +102,7 @@ const allWorks = [
     `${artPath}/unclejessesbass.jpg`,
     "Uncle Jesse's Bass",
     "JM Fodder",
-    "Songwriter / Producer",
+    "Songwriter / Producer / Mixing",
     "2021",
     "https://jmfodder.bandcamp.com/album/uncle-jesses-bass"
   ),
