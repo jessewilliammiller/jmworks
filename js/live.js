@@ -22,6 +22,17 @@ const allShows = [
     ),
     new Show(
         true,
+        "July 26th Joe Waine w/ Locate S,1 @ Madame Lou's",
+        "Seattle, WA 2023",
+        "https://www.ticketweb.com/event/locate-s1-madame-lous-tickets/13186958"
+    ),
+    new Show(
+        true,
+        "July 29th J.M. Fodder @  Punk Show Under a Bridge (send me an email for location!)",
+        "Portland, OR 2023 (Daytime, time TBA)",
+    ),
+    new Show(
+        true,
         "August 19 (times TBA) J.M. Fodder / Joe Waine Band @ Wainestock (Volunteer Park)",
         "Seattle, WA 2023",
         "https://wainestock.com/"
