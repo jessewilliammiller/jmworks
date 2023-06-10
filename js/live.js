@@ -44,6 +44,12 @@ const allShows = [
         "https://thenewfrontierlounge.com/"
     ),
     new Show(
+        true,
+        "August 5th, J.M. Fodder @ Casa Del Xolo ",
+        "Seattle, WA 2023",
+        "https://www.casadelxolo.com/"
+    ),
+    new Show(
         false,
         "June 4th w/ Joe Waine @ Royal Room",
         "Seattle, WA 2023",
