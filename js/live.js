@@ -169,7 +169,7 @@ const upcomingHTML = allShows.filter((show) => show.upcoming)
             <p>${upcomingShow.line1}</p>
             <p>${upcomingShow.line2}</p>
             ${upcomingShow.link
-            ? `<a href="${upcomingShow.link}" target="_blank">tix</a>`
+            ? `<a href="${upcomingShow.link}" target="_blank">link</a>`
             : ""}
         </div>
         <hr class="lilLine"></hr>
