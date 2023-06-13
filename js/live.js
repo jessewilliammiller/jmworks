@@ -33,12 +33,6 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 19 (times TBA) J.M. Fodder / Joe Waine Band @ Wainestock (Volunteer Park)",
-        "Seattle, WA 2023",
-        "https://wainestock.com/"
-    ),
-    new Show(
-        true,
         "August 4th, J.M. Fodder @ New Frontier ",
         "Tacoma, WA 2023",
         "https://thenewfrontierlounge.com/"
@@ -48,6 +42,12 @@ const allShows = [
         "August 5th, J.M. Fodder @ Casa Del Xolo ",
         "Seattle, WA 2023",
         "https://www.casadelxolo.com/"
+    ),
+    new Show(
+        true,
+        "August 19 (times TBA) J.M. Fodder / Joe Waine Band @ Wainestock (Volunteer Park)",
+        "Seattle, WA 2023",
+        "https://wainestock.com/"
     ),
     new Show(
         false,
