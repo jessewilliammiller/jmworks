@@ -28,8 +28,8 @@ const allShows = [
     ),
     new Show(
         true,
-        "July 29th J.M. Fodder @  Punk Show Under a Bridge (send me an email for location!)",
-        "Portland, OR 2023 (Daytime, time TBA)",
+        "July 29th J.M. Fodder @ Trollfest (Under a Bridge, send me an email for location!)",
+        "Portland, OR 2023 (time TBA)",
     ),
     new Show(
         true,
@@ -45,9 +45,26 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 19 (times TBA) J.M. Fodder / Joe Waine Band @ Wainestock (Volunteer Park)",
+        "August 12, J.M. Fodder (w/ Null State) Venue TBA",
+        "Olympia, WA 2023"
+    ),
+    new Show(
+        true,
+        "August 18 (times TBA) Jonny G and the Music Factory @ Wainestock (Volunteer Park)",
         "Seattle, WA 2023",
         "https://wainestock.com/"
+    ),
+    new Show(
+        true,
+        "August 19 (times TBA) J.M. Fodder & Joe Waine Band @ Wainestock (Volunteer Park)",
+        "Seattle, WA 2023",
+        "https://wainestock.com/"
+    ),
+    new Show(
+        true,
+        "August 26, J.M. Fodder @ Alternative Library (Karate Church)",
+        "Bellingham, WA 2023",
+        "https://www.instagram.com/karatechurch/"
     ),
     new Show(
         false,
