@@ -62,7 +62,7 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 26, J.M. Fodder @ Alternative Library (Karate Church)",
+        "August 26, J.M. Fodder @ Karate Church",
         "Bellingham, WA 2023",
         "https://www.instagram.com/karatechurch/"
     ),
