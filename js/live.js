@@ -11,7 +11,7 @@ const allShows = [
     // add a space within the quotes by adding <br/>
     
     new Show(
-        true,
+        false,
         "June 24th, J.M. Fodder @ Woodland Theatre",
         "Seattle, WA 2023 - DONATIONS at Door!"
     ),
@@ -19,6 +19,13 @@ const allShows = [
         true,
         "July 9th w/ Peg & Jonny G (I'm playing in both bands) @ Add-A Ball (Arcade in Fremont)",
         "Seattle, WA 2023 - FREE SHOW!!!"
+    ),
+    new Show(
+        true,
+        "July 21st w/ Rachel Ewen @ Casa Del Xolo",
+        "Seattle, WA 2023", 
+        "https://www.casadelxolo.com/"
+
     ),
     new Show(
         true,
@@ -30,6 +37,11 @@ const allShows = [
         true,
         "July 29th J.M. Fodder @ Trollfest (Under a Bridge, send me an email for location!)",
         "Portland, OR 2023 (time TBA)",
+    ),
+    new Show(
+        true,
+        "August 2nd, Rachel Ewen @ private event",
+        "Seabeck, WA 2023"
     ),
     new Show(
         true,
@@ -45,7 +57,13 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 12, J.M. Fodder (w/ Null State) Venue TBA",
+        "August 12, J.M. Fodder (w/ Null State) @ Le Voyeur",
+        "Olympia, WA 2023", 
+        "https://www.levoyeurolympia.com/shows.html"
+    ),
+    new Show(
+        true,
+        "August 13, J.M. Fodder @ Neighborhood Block Party (message me for deets)",
         "Olympia, WA 2023"
     ),
     new Show(
@@ -62,9 +80,19 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 26, J.M. Fodder @ Karate Church",
+        "August 26, J.M. Fodder @ Karate Church w/ Cumulus (solo)",
         "Bellingham, WA 2023",
         "https://www.instagram.com/karatechurch/"
+    ),
+    new Show(
+        true,
+        "August 27, Jonny G and the Music Factory @ Ballard Food Bank (fundraiser)",
+        "Seattle, WA 2023"
+    ),
+    new Show(
+        true,
+        "Sept 30, Jonny G and the Music Factory",
+        "Everett, WA 2023"
     ),
     new Show(
         false,
