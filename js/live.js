@@ -33,9 +33,9 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 4th, J.M. Fodder @ New Frontier ",
+        "August 4th, J.M. Fodder @ New Frontier",
         "Tacoma, WA 2023",
-        "https://thenewfrontierlounge.com/"
+        "https://www.venuepilot.co/events/78441/orders/new"
     ),
     new Show(
         true,
