@@ -16,7 +16,7 @@ const allShows = [
         "Seattle, WA 2023 - DONATIONS at Door!"
     ),
     new Show(
-        true,
+        false,
         "July 9th w/ Peg & Jonny G (I'm playing in both bands) @ Add-A Ball (Arcade in Fremont)",
         "Seattle, WA 2023 - FREE SHOW!!!"
     ),
