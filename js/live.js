@@ -57,15 +57,21 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 12, J.M. Fodder (w/ Null State) @ Le Voyeur",
-        "Olympia, WA 2023", 
-        "https://www.levoyeurolympia.com/shows.html"
+        "August 7th, J.M. Fodder @ House Show (private) w/ Ben Varian and Jake Tobin ",
+        "Seattle, WA 2023"
     ),
     new Show(
         true,
-        "August 13, J.M. Fodder @ Neighborhood Block Party (message me for deets)",
+        "August 12, J.M. Fodder @ Neighborhood Block Party (daytime, message me for deets)",
         "Olympia, WA 2023"
     ),
+    new Show(
+        true,
+        "August 12, J.M. Fodder (w/ Null State and Ben Kamen) @ Le Voyeur",
+        "Olympia, WA 2023", 
+        "https://www.levoyeurolympia.com/shows.html"
+    ),
+   
     new Show(
         true,
         "August 18 (times TBA) Jonny G and the Music Factory @ Wainestock (Volunteer Park)",
@@ -77,6 +83,12 @@ const allShows = [
         "August 19 (times TBA) J.M. Fodder & Joe Waine Band @ Wainestock (Volunteer Park)",
         "Seattle, WA 2023",
         "https://wainestock.com/"
+    ),
+    new Show(
+        true,
+        "August 25th - Joe Waine Band @ Upstairs Cabaret w/ Velveteins ",
+        "Victoria, BC 2023",
+        "https://upstairscabaret.ca/"
     ),
     new Show(
         true,
