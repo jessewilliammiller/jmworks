@@ -21,14 +21,14 @@ const allShows = [
         "Seattle, WA 2023 - FREE SHOW!!!"
     ),
     new Show(
-        true,
+        false,
         "July 21st w/ Rachel Ewen @ Casa Del Xolo",
         "Seattle, WA 2023", 
         "https://www.casadelxolo.com/"
 
     ),
     new Show(
-        true,
+        false,
         "July 26th Joe Waine w/ Locate S,1 @ Madame Lou's",
         "Seattle, WA 2023",
         "https://www.ticketweb.com/event/locate-s1-madame-lous-tickets/13186958"
