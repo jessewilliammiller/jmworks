@@ -92,6 +92,11 @@ const allShows = [
     ),
     new Show(
         true,
+        "August 6th, Jonny G and the Music Factory @ Waterwheel Lounge (Ballard)",
+        "Seattle, WA 2023"
+    ),
+    new Show(
+        true,
         "Sept 30, Jonny G and the Music Factory",
         "Everett, WA 2023"
     ),
