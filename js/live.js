@@ -34,17 +34,17 @@ const allShows = [
         "https://www.ticketweb.com/event/locate-s1-madame-lous-tickets/13186958"
     ),
     new Show(
-        true,
+        false,
         "July 29th J.M. Fodder @ Trollfest (Under a Bridge, send me an email for location!)",
         "Portland, OR 2023 (time TBA)",
     ),
     new Show(
-        true,
+        false,
         "August 2nd, Rachel Ewen @ private event",
         "Seabeck, WA 2023"
     ),
     new Show(
-        true,
+        false,
         "August 4th, J.M. Fodder @ New Frontier",
         "Tacoma, WA 2023",
         "https://www.venuepilot.co/events/78441/orders/new"
@@ -59,11 +59,6 @@ const allShows = [
         true,
         "August 7th, J.M. Fodder @ House Show (private) w/ Ben Varian and Jake Tobin ",
         "Seattle, WA 2023"
-    ),
-    new Show(
-        true,
-        "August 12, J.M. Fodder @ Neighborhood Block Party (daytime, message me for deets)",
-        "Olympia, WA 2023"
     ),
     new Show(
         true,
@@ -89,12 +84,6 @@ const allShows = [
         "August 25th - Joe Waine Band @ Upstairs Cabaret w/ Velveteins ",
         "Victoria, BC 2023",
         "https://upstairscabaret.ca/"
-    ),
-    new Show(
-        true,
-        "August 26, J.M. Fodder @ Karate Church w/ Cumulus (solo)",
-        "Bellingham, WA 2023",
-        "https://www.instagram.com/karatechurch/"
     ),
     new Show(
         true,
