@@ -50,7 +50,7 @@ const allShows = [
         "https://www.venuepilot.co/events/78441/orders/new"
     ),
     new Show(
-        true,
+        false,
         "August 5th, J.M. Fodder @ Casa Del Xolo ",
         "Seattle, WA 2023",
         "https://www.casadelxolo.com/"
