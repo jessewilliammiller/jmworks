@@ -10,80 +10,19 @@ const allShows = [
     // false indicates past show
     // add a space within the quotes by adding <br/>
     
-    new Show(
-        false,
-        "June 24th, J.M. Fodder @ Woodland Theatre",
-        "Seattle, WA 2023 - DONATIONS at Door!"
-    ),
-    new Show(
-        false,
-        "July 9th w/ Peg & Jonny G (I'm playing in both bands) @ Add-A Ball (Arcade in Fremont)",
-        "Seattle, WA 2023 - FREE SHOW!!!"
-    ),
-    new Show(
-        false,
-        "July 21st w/ Rachel Ewen @ Casa Del Xolo",
-        "Seattle, WA 2023", 
-        "https://www.casadelxolo.com/"
-
-    ),
-    new Show(
-        false,
-        "July 26th Joe Waine w/ Locate S,1 @ Madame Lou's",
-        "Seattle, WA 2023",
-        "https://www.ticketweb.com/event/locate-s1-madame-lous-tickets/13186958"
-    ),
-    new Show(
-        false,
-        "July 29th J.M. Fodder @ Trollfest (Under a Bridge, send me an email for location!)",
-        "Portland, OR 2023 (time TBA)",
-    ),
-    new Show(
-        false,
-        "August 2nd, Rachel Ewen @ private event",
-        "Seabeck, WA 2023"
-    ),
-    new Show(
-        false,
-        "August 4th, J.M. Fodder @ New Frontier",
-        "Tacoma, WA 2023",
-        "https://www.venuepilot.co/events/78441/orders/new"
-    ),
-    new Show(
-        false,
-        "August 5th, J.M. Fodder @ Casa Del Xolo ",
-        "Seattle, WA 2023",
-        "https://www.casadelxolo.com/"
-    ),
-    new Show(
-        true,
-        "August 7th, J.M. Fodder @ House Show (private) w/ Ben Varian and Jake Tobin ",
-        "Seattle, WA 2023"
-    ),
-    new Show(
-        true,
-        "August 12, J.M. Fodder (w/ Null State and Ben Kamen) @ Le Voyeur",
-        "Olympia, WA 2023", 
-        "https://www.levoyeurolympia.com/shows.html"
-    ),
+   
    
     new Show(
         true,
-        "August 18 (times TBA) Jonny G and the Music Factory @ Wainestock (Volunteer Park)",
+        "August 18 @ 8:30pm Jonny G and the Music Factory @ Wainestock (Volunteer Park)",
         "Seattle, WA 2023",
         "https://wainestock.com/"
     ),
     new Show(
         true,
-        "August 19 (times TBA) J.M. Fodder & Joe Waine Band @ Wainestock (Volunteer Park)",
+        "August 19 @ 7pm w/ J.M. Fodder & @ 8:30pm w/ Joe Waine Band @ Wainestock (Volunteer Park)",
         "Seattle, WA 2023",
         "https://wainestock.com/"
-    ),
-    new Show(
-        true,
-        "August 25th - Joe Waine Band @ Upstairs Cabaret w/ Velveteins ",
-        "Victoria, BC 2023",
-        "https://upstairscabaret.ca/"
     ),
     new Show(
         true,
@@ -92,7 +31,7 @@ const allShows = [
     ),
     new Show(
         true,
-        "August 6th, Jonny G and the Music Factory @ Waterwheel Lounge (Ballard)",
+        "Sept 6th, Rachel Ewen @ The Vera Project w/ De Luxe",
         "Seattle, WA 2023"
     ),
     new Show(
@@ -104,6 +43,63 @@ const allShows = [
         true,
         "Sept 30, Jonny G and the Music Factory",
         "Everett, WA 2023"
+    ),
+    new Show(
+        false,
+        "August 12, J.M. Fodder (w/ Null State and Ben Kamen) @ Le Voyeur",
+        "Olympia, WA 2023", 
+        "https://www.levoyeurolympia.com/shows.html"
+    ),
+    new Show(
+        false,
+        "August 7th, J.M. Fodder @ House Show (private) w/ Ben Varian and Jake Tobin ",
+        "Seattle, WA 2023"
+    ),
+    new Show(
+        false,
+        "August 5th, J.M. Fodder @ Casa Del Xolo ",
+        "Seattle, WA 2023",
+        "https://www.casadelxolo.com/"
+    ),
+    new Show(
+        false,
+        "August 4th, J.M. Fodder @ New Frontier",
+        "Tacoma, WA 2023",
+        "https://www.venuepilot.co/events/78441/orders/new"
+    ),
+    new Show(
+        false,
+        "August 2nd, Rachel Ewen @ private event",
+        "Seabeck, WA 2023"
+    ),
+    new Show(
+        false,
+        "July 29th J.M. Fodder @ Trollfest (Under a Bridge, send me an email for location!)",
+        "Portland, OR 2023 (time TBA)",
+    ),
+    new Show(
+        false,
+        "July 26th Joe Waine w/ Locate S,1 @ Madame Lou's",
+        "Seattle, WA 2023",
+        "https://www.ticketweb.com/event/locate-s1-madame-lous-tickets/13186958"
+    ),
+    new Show(
+        false,
+        "July 21st w/ Rachel Ewen @ Casa Del Xolo",
+        "Seattle, WA 2023", 
+        "https://www.casadelxolo.com/"
+
+    ),
+    new Show(
+        false,
+        "July 9th w/ Peg & Jonny G (I'm playing in both bands) @ Add-A Ball (Arcade in Fremont)",
+        "Seattle, WA 2023 - FREE SHOW!!!"
+    ),
+
+    new Show(
+        false,
+        "June 24th, J.M. Fodder @ Woodland Theatre",
+        "Seattle, WA 2023 - DONATIONS at Door!"
     ),
     new Show(
         false,
