@@ -10,20 +10,7 @@ const allShows = [
     // false indicates past show
     // add a space within the quotes by adding <br/>
     
-   
-   
-    new Show(
-        true,
-        "August 18 @ 8:30pm Jonny G and the Music Factory @ Wainestock (Volunteer Park)",
-        "Seattle, WA 2023",
-        "https://wainestock.com/"
-    ),
-    new Show(
-        true,
-        "August 19 @ 7pm w/ J.M. Fodder & @ 8:30pm w/ Joe Waine Band @ Wainestock (Volunteer Park)",
-        "Seattle, WA 2023",
-        "https://wainestock.com/"
-    ),
+    
     new Show(
         true,
         "August 27, Jonny G and the Music Factory @ Ballard Food Bank (fundraiser)",
@@ -43,6 +30,18 @@ const allShows = [
         true,
         "Sept 30, Jonny G and the Music Factory",
         "Everett, WA 2023"
+    ),
+    new Show(
+        false,
+        "August 19 @ 7pm w/ J.M. Fodder & @ 8:30pm w/ Joe Waine Band @ Wainestock (Volunteer Park)",
+        "Seattle, WA 2023",
+        "https://wainestock.com/"
+    ),
+    new Show(
+        false,
+        "August 18 @ 8:30pm Jonny G and the Music Factory @ Wainestock (Volunteer Park)",
+        "Seattle, WA 2023",
+        "https://wainestock.com/"
     ),
     new Show(
         false,
