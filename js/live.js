@@ -18,7 +18,12 @@ const allShows = [
     ),
     new Show(
         true,
-        "Sept 6th, Rachel Ewen @ The Vera Project w/ De Luxe",
+        "Sept 6th, 8pm, Rachel Ewen @ The Vera Project w/ De Luxe",
+        "Seattle, WA 2023"
+    ),
+    new Show(
+        true,
+        "Sept 6th, 10pm, Jonny G and the Music Factory @ Waterwheel (bar in Ballard)",
         "Seattle, WA 2023"
     ),
     new Show(
