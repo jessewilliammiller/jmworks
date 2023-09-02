@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/lost.jpeg`,
+    "Lost",
+    "Rachel Ewen",
+    "Producer",
+    "2023",
+    "https://rachelewen.bandcamp.com/track/lost"
+  ),
+  new Work(
     `${artPath}/letmein.jpeg`,
     "Let Me In",
     "Rachel Ewen",

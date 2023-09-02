@@ -11,11 +11,7 @@ const allShows = [
     // add a space within the quotes by adding <br/>
     
     
-    new Show(
-        true,
-        "August 27, Jonny G and the Music Factory @ Ballard Food Bank (fundraiser)",
-        "Seattle, WA 2023"
-    ),
+   
     new Show(
         true,
         "Sept 6th, 8pm, Rachel Ewen @ The Vera Project w/ De Luxe",
@@ -35,6 +31,21 @@ const allShows = [
         true,
         "Sept 30, Jonny G and the Music Factory",
         "Everett, WA 2023"
+    ),
+    new Show(
+        true,
+        "Nov. 3, JM Fodder @ Mahayana (House Show) message me for the address!",
+        "Olympia, WA 2023"
+    ),
+    new Show(
+        true,
+        "Nov. 4, JM Fodder & Deja Bleu (details still being worked out!)",
+        "Portland, OR 2023"
+    ),
+    new Show(
+        false,
+        "August 27, Jonny G and the Music Factory @ Ballard Food Bank (fundraiser)",
+        "Seattle, WA 2023"
     ),
     new Show(
         false,
