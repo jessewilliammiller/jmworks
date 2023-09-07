@@ -12,16 +12,7 @@ const allShows = [
     
     
    
-    new Show(
-        true,
-        "Sept 6th, 8pm, Rachel Ewen @ The Vera Project w/ De Luxe",
-        "Seattle, WA 2023"
-    ),
-    new Show(
-        true,
-        "Sept 6th, 10pm, Jonny G and the Music Factory @ Waterwheel (bar in Ballard)",
-        "Seattle, WA 2023"
-    ),
+   
     new Show(
         true,
         "Sept 23, 6pm - JM Fodder, Allyson Foster, Joan Kelsey @ Deep Shade (my backyard, dm for addy)",
@@ -41,6 +32,17 @@ const allShows = [
         true,
         "Nov. 4, JM Fodder & Deja Bleu (details still being worked out!)",
         "Portland, OR 2023"
+    ),
+
+    new Show(
+        false,
+        "Sept 6th, 8pm, Rachel Ewen @ The Vera Project w/ De Luxe",
+        "Seattle, WA 2023"
+    ),
+    new Show(
+        false,
+        "Sept 6th, 10pm, Jonny G and the Music Factory @ Waterwheel (bar in Ballard)",
+        "Seattle, WA 2023"
     ),
     new Show(
         false,
