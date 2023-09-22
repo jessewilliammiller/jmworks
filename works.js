@@ -11,7 +11,7 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
-    `${artPath}/lost.jpeg`,
+    `${artPath}/Lost.jpeg`,
     "Lost",
     "Rachel Ewen",
     "Producer",
