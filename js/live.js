@@ -13,11 +13,7 @@ const allShows = [
     
    
    
-    new Show(
-        true,
-        "Sept 23, 6pm - JM Fodder, Allyson Foster, Joan Kelsey @ Deep Shade (my backyard, dm for addy)",
-        "Seattle, WA 2023"
-    ),
+   
     new Show(
         true,
         "Sept 30, Jonny G and the Music Factory",
@@ -33,7 +29,11 @@ const allShows = [
         "Nov. 4, JM Fodder & Deja Bleu (details still being worked out!)",
         "Portland, OR 2023"
     ),
-
+    new Show(
+        false,
+        "Sept 23, 6pm - JM Fodder, Allyson Foster, Joan Kelsey @ Deep Shade (my backyard, dm for addy)",
+        "Seattle, WA 2023"
+    ),
     new Show(
         false,
         "Sept 6th, 8pm, Rachel Ewen @ The Vera Project w/ De Luxe",
