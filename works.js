@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/MIF XI.jpeg`,
+    "Meditations In Fear vol. XI",
+    "Various Artists",
+    "Curator/Contributor",
+    "2023",
+    "https://meditationsinfear.bandcamp.com/album/xi"
+  ),
+  new Work(
     `${artPath}/Lost.jpeg`,
     "Lost",
     "Rachel Ewen",

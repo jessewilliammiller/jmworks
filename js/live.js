@@ -20,11 +20,6 @@ const allShows = [
     ),
     new Show(
         true,
-        "Nov. 4, JM Fodder & Deja Bleu (details still being worked out!)",
-        "Portland, OR 2023"
-    ),
-    new Show(
-        true,
         "Nov. 19, JM Fodder @ LA River d.i.y show w/ Ronan Delisle and frogluv",
         "Los Angeles, CA 2023"
     ),
