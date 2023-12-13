@@ -11,22 +11,26 @@ const allShows = [
     // add a space within the quotes by adding <br/>
     
     
-
+    new Show(
+        true,
+        "Jan. 6th, JM Fodder @ Conor Byrne w/ Oh, Rose & Jonny G and the Music Factory",
+        "Seattle, WA 2024"
+    ),
  
     new Show(
-        true,
-        "Nov. 3, JM Fodder @ Mahayana (House Show) message me for the address!",
-        "Olympia, WA 2023"
+        false,
+        "Dec. 4th, JM Fodder @ Tractor Tavern w/ Westmoreland and Cooper Kenward",
+        "Seattle, WA 2023"
     ),
     new Show(
-        true,
+        false,
         "Nov. 19, JM Fodder @ LA River d.i.y show w/ Ronan Delisle and frogluv",
         "Los Angeles, CA 2023"
     ),
     new Show(
-        true,
-        "Dec. 4th, JM Fodder @ Tractor Tavern w/ Westmoreland and Cooper Kenward",
-        "Seattle, WA 2023"
+        false,
+        "Nov. 3, JM Fodder @ Mahayana (House Show) message me for the address!",
+        "Olympia, WA 2023"
     ),
     new Show(
         false,

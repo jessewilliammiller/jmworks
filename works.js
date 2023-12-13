@@ -11,6 +11,22 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/jmfodderbrokenupworks.jpeg`,
+    "Broken Up Before b/w Techno Reality",
+    "JM Fodder",
+    "Writer, Performer, Producer",
+    "2023",
+    "https://jmfodder.bandcamp.com/album/broken-up-before"
+  ),
+  new Work(
+    `${artPath}/rachelewenmelatonin.jpeg`,
+    "Melatonin",
+    "Rachel Ewen",
+    "Producer, Mixer, Guitarist",
+    "2023",
+    "https://rachelewen.bandcamp.com/track/melatonin"
+  ),
+  new Work(
     `${artPath}/MIF XI.jpeg`,
     "Meditations In Fear vol. XI",
     "Various Artists",
