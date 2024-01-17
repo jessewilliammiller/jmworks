@@ -10,9 +10,18 @@ const allShows = [
     // false indicates past show
     // add a space within the quotes by adding <br/>
     
-    
     new Show(
         true,
+        "Jan. 20th, Peg (me on guitar) @ Sunset Tavern w/ Model Shop (record release) and Moon Palace",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        false,
+        "Jan. 13th, Peg (me on guitar) @ Cap Hill Loft (dm for address) w/ Don Piano and Joan Kelsey",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        false,
         "Jan. 6th, JM Fodder @ Conor Byrne w/ Oh, Rose & Jonny G and the Music Factory",
         "Seattle, WA 2024"
     ),
