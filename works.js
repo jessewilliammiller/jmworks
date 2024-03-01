@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/babyboy.jpeg`,
+    "Baby Boy (Single)",
+    "JM Fodder",
+    "Writer, Performer, Producer, Mixer",
+    "2024",
+    "https://jmfodder.bandcamp.com/track/baby-boy"
+  ),
+  new Work(
     `${artPath}/jmfodderbrokenupworks.jpeg`,
     "Broken Up Before b/w Techno Reality",
     "JM Fodder",

@@ -9,9 +9,41 @@ const allShows = [
     // true indicates upcoming show
     // false indicates past show
     // add a space within the quotes by adding <br/>
+    new Show(
+        true,
+        "May 14th, JM Fodder @ The High Dive w/ King Ropes",
+        "Seattle, WA 2024"
+    ),
     
     new Show(
         true,
+        "April 18th, JM Fodder @ Conor Byrne Pub w/ The Pond & Ancient Forest",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        true,
+        "March 18th, Peg @ The Royal Room",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        true,
+        "March 17th, JM Fodder/Peg @ Gallery 1412 - Racer Session",
+        "Seattle, WA 2024"
+    ),
+  
+    
+    new Show(
+        false,
+        "March 1st, JM Fodder @ Clockout Lounge w/ YDC and Ok Bucko",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        false,
+        "Feb. 15th, JM Fodder (solo) @ The Royal Room",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        false,
         "Jan. 20th, Peg (me on guitar) @ Sunset Tavern w/ Model Shop (record release) and Moon Palace",
         "Seattle, WA 2024"
     ),
