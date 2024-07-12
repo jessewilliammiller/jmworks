@@ -9,24 +9,99 @@ const allShows = [
     // true indicates upcoming show
     // false indicates past show
     // add a space within the quotes by adding <br/>
+   
+   
     new Show(
         true,
+        "July 13th, JM Fodder (solo) @ Woodland Theatre w/ Simile & The Fourth Wall",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        true,
+        "July 18th, Rachel Ewen (EP Release!) @ The Sunset w/ Shaina Shepard & Ok Bucko",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        true,
+        "July 22nd, JM Fodder (Duo) @ Deep Shade (my backyard) w/ Bobbie, Boy in the Water & Joan Kelsey",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        true,
+        "July 28th, Jonny G and the Music Factory @ Add-A-Ball w/ Fine Arts & Pool Boys",
+        "Seattle, WA 2024"
+    ),  
+    new Show(
+        true,
+        "Sept 22nd, Peg @ Madame Lou's w/ Chris Cohen",
+        "Seattle, WA 2024"
+    ),
+   
+    
+
+    
+    
+    
+    new Show(
+        false,
+        "July 1st, JM Fodder (solo) @ Rubin's Sister's Backyard :) w/ frogluv & Maya Stone",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        false,
+        "June 20th, Jonny G and the Music Factory @ Woodland Theatre w/ Okay Bucko & New Issue",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        false,
+        "June 17th, Jonny G and the Music Factory @ Chromatic Coffee",
+        "San Jose, CA 2024"
+    ),
+    
+    new Show(
+        false,
+        "June 16th, Jonny G and the Music Factory @ Greater Goods w/ The Senate",
+        "Ojai, CA 2024"
+    ),
+    new Show(
+        false,
+        "June 15th, Jonny G and the Music Factory @ Scribble w/ Ronan Delisle & Sharon Silva",
+        "Los Angeles, CA 2024"
+    ),
+    new Show(
+        false,
+        "June 14th, Jonny G and the Music Factory @ Martial Arts w/ Fieldress & Marika Christine",
+        "Oakland, CA 2024"
+    ),
+    new Show(
+        false,
+        "June 12th, Jonny G and the Music Factory @ The Fixin To w/ Sawtooth & Swinging",
+        "Portland, OR 2024"
+    ),
+
+    new Show(
+        false,
+        "May 21st, Jonny G and the Music Factory @ The Sunset w/ Telehealth & Kairos Creature Club",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        false,
         "May 14th, JM Fodder @ The High Dive w/ King Ropes",
         "Seattle, WA 2024"
     ),
     
     new Show(
-        true,
+        false,
         "April 18th, JM Fodder @ Conor Byrne Pub w/ The Pond & Ancient Forest",
         "Seattle, WA 2024"
     ),
     new Show(
-        true,
+        false,
         "March 18th, Peg @ The Royal Room",
         "Seattle, WA 2024"
     ),
     new Show(
-        true,
+        false,
         "March 17th, JM Fodder/Peg @ Gallery 1412 - Racer Session",
         "Seattle, WA 2024"
     ),
