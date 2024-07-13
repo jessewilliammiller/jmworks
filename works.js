@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/goincircles.jpg`,
+    "Go In Circles (Single)",
+    "Rachel Ewen",
+    "Producer, Mixer, Guitarist",
+    "2024",
+    "https://rachelewen.bandcamp.com/track/go-in-circles"
+  ),
+  new Work(
     `${artPath}/babyboy.jpeg`,
     "Baby Boy (Single)",
     "JM Fodder",
