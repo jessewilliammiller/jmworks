@@ -11,16 +11,8 @@ const allShows = [
     // add a space within the quotes by adding <br/>
    
    
-    new Show(
-        true,
-        "July 13th, JM Fodder (solo) @ Woodland Theatre w/ Simile & The Fourth Wall",
-        "Seattle, WA 2024"
-    ),
-    new Show(
-        true,
-        "July 18th, Rachel Ewen (EP Release!) @ The Sunset w/ Shaina Shepard & Ok Bucko",
-        "Seattle, WA 2024"
-    ),
+   
+    
     new Show(
         true,
         "July 22nd, JM Fodder (Duo) @ Deep Shade (my backyard) w/ Bobbie, Boy in the Water & Joan Kelsey",
@@ -40,8 +32,16 @@ const allShows = [
     
 
     
-    
-    
+    new Show(
+        false,
+        "July 18th, Rachel Ewen (EP Release!) @ The Sunset w/ Shaina Shepard & Ok Bucko",
+        "Seattle, WA 2024"
+    ),
+    new Show(
+        false,
+        "July 13th, JM Fodder (solo) @ Woodland Theatre w/ Simile & The Fourth Wall",
+        "Seattle, WA 2024"
+    ),
     new Show(
         false,
         "July 1st, JM Fodder (solo) @ Rubin's Sister's Backyard :) w/ frogluv & Maya Stone",
