@@ -224,7 +224,7 @@ const allWorks = [
     "Señor Fin",
     "Songwriter / Guitar / Vocals / Producer",
     "2019",
-    "https://youtu.be/rRCRL8TNoVA"
+    "https://senorfin.bandcamp.com/album/hardly-alone"
   ),
   new Work(
     `${artPath}/welcometo.jpg`,

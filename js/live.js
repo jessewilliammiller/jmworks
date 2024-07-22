@@ -27,7 +27,7 @@ const allShows = [
         true,
         "Sept 22nd, Peg @ Madame Lou's w/ Chris Cohen",
         "Seattle, WA 2024"
-    ),
+    ),git commit -m
    
     
 
