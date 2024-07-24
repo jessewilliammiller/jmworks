@@ -13,11 +13,7 @@ const allShows = [
    
    
     
-    new Show(
-        true,
-        "July 22nd, JM Fodder (Duo) @ Deep Shade (my backyard) w/ Bobbie, Boy in the Water & Joan Kelsey",
-        "Seattle, WA 2024"
-    ),
+    
     new Show(
         true,
         "July 28th, Jonny G and the Music Factory @ Add-A-Ball w/ Fine Arts & Pool Boys",
@@ -27,11 +23,15 @@ const allShows = [
         true,
         "Sept 22nd, Peg @ Madame Lou's w/ Chris Cohen",
         "Seattle, WA 2024"
-    ),git commit -m
+    ),
    
     
 
-    
+    new Show(
+        false,
+        "July 22nd, JM Fodder (Duo) @ Deep Shade (my backyard) w/ Bobbie, Boy in the Water & Joan Kelsey",
+        "Seattle, WA 2024"
+    ),
     new Show(
         false,
         "July 18th, Rachel Ewen (EP Release!) @ The Sunset w/ Shaina Shepard & Ok Bucko",
