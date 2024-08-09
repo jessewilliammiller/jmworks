@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/timeback.jpg`,
+    "Time Back (Single)",
+    "Rachel Ewen",
+    "Producer, Mixer, Guitarist",
+    "2024",
+    "https://rachelewen.bandcamp.com/track/time-back-2"
+  ),
+  new Work(
     `${artPath}/goincircles.jpg`,
     "Go In Circles (Single)",
     "Rachel Ewen",
