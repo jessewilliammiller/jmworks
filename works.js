@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/breadcrumbsep.jpg`,
+    "Breadcrumbs (EP)",
+    "Rachel Ewen",
+    "Producer, Mixer, Guitarist",
+    "2024",
+    "https://rachelewen.bandcamp.com/album/breadcrumbs"
+  ),
+  new Work(
     `${artPath}/timeback.jpg`,
     "Time Back (Single)",
     "Rachel Ewen",
