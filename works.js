@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/insomnia.jpeg`,
+    "Insomnia",
+    "JM Spider",
+    "Writer,Producer,Everything",
+    "2024",
+    "https://jmfodder.bandcamp.com/track/jm-spider-insomnia"
+  ),
+  new Work(
     `${artPath}/breadcrumbsep.jpg`,
     "Breadcrumbs (EP)",
     "Rachel Ewen",

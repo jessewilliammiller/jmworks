@@ -11,12 +11,22 @@ const allShows = [
     // add a space within the quotes by adding <br/>
    
    
-   
-    
     
     
     new Show(
-        true,
+        false,
+        "October 20, JM Fodder @ Clockout Lounge w/ Chong the Nomad (Gaza Benefit)",
+        "Seattle, WA 2024"
+    ),
+
+    new Show(
+        false,
+        "October 18, Jonny G & the Music Factory @ Woodland Theatre w/ Manchildhood & Generifus (Album Release) ",
+        "Seattle, WA 2024"
+    ),
+    
+    new Show(
+        false,
         "Sept 22nd, Peg @ Madame Lou's w/ Chris Cohen",
         "Seattle, WA 2024"
     ),
