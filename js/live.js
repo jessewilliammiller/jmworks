@@ -9,9 +9,56 @@ const allShows = [
     // true indicates upcoming show
     // false indicates past show
     // add a space within the quotes by adding <br/>
-   
-   
-    
+    new Show(
+        true,
+        "June 21st, Rachel Ewen @ Sunset Tavern",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        true,
+        "June 4th, Rachel Ewen @ Rabbit Box Theatre",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        true,
+        "June 1st, JM Fodder (solo) @ Woodland Theatre w/ Drunk Sallie (Album Release)",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        false,
+        "April 3rd, Jonny G & The Music Factory @ Tractor Tavern w/ Oh, Rose & Coral Grief",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        false,
+        "March 21st, Rachel Ewen @ Conor Byrne Pub w/ Heavy Bloom & Jay Si Proof",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        false,
+        "March 3rd, JM Fodder (solo) @ Sunset Tavern w/ Sven (album release) & Don Piano",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        false,
+        "February 17th, JM Fodder (solo) @ Sunset Tavern w/ Shoecraft (album release)",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        false,
+        "February 14th, Rachel Ewen @ Add-A-Ball",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        false,
+        "January 9, Rachel Ewen @ Bad Bar w/ Hyperbella & Shelby Natasha",
+        "Seattle, WA 2025"
+    ),
+    new Show(
+        false,
+        "December 3, Jonny G & The Music Factory @ Sunset Tavern w/ Prim & Drunk Drama",
+        "Seattle, WA 2024"
+    ),
     
     new Show(
         false,

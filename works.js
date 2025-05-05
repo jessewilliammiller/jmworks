@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/effortless.jpg`,
+    "Effortless",
+    "Rachel Ewen",
+    "Producer, Guitar, Bass, Synth, Drum Programming, Writer",
+    "2025",
+    "https://rachelewen.bandcamp.com/track/effortless"
+  ),
+  new Work(
     `${artPath}/insomnia.jpeg`,
     "Insomnia",
     "JM Spider",
