@@ -11,7 +11,7 @@ const allShows = [
     // add a space within the quotes by adding <br/>
     new Show(
         true,
-        "June 21st, Rachel Ewen @ Sunset Tavern",
+        "June 1st, JM Fodder (solo) @ Woodland Theatre w/ Drunk Sallie (Album Release)",
         "Seattle, WA 2025"
     ),
     new Show(
@@ -21,7 +21,7 @@ const allShows = [
     ),
     new Show(
         true,
-        "June 1st, JM Fodder (solo) @ Woodland Theatre w/ Drunk Sallie (Album Release)",
+        "June 21st, Rachel Ewen @ Sunset Tavern",
         "Seattle, WA 2025"
     ),
     new Show(
