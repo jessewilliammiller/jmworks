@@ -9,22 +9,25 @@ const allShows = [
     // true indicates upcoming show
     // false indicates past show
     // add a space within the quotes by adding <br/>
+    
+    
     new Show(
-        true,
-        "June 1st, JM Fodder (solo) @ Woodland Theatre w/ Drunk Sallie (Album Release)",
+        false,
+        "June 21st, Rachel Ewen @ Sunset Tavern",
         "Seattle, WA 2025"
     ),
+   
     new Show(
-        true,
+        false,
         "June 4th, Rachel Ewen @ Rabbit Box Theatre",
         "Seattle, WA 2025"
     ),
     new Show(
-        true,
-        "June 21st, Rachel Ewen @ Sunset Tavern",
+        false,
+        "June 1st, JM Fodder (solo) @ Woodland Theatre w/ Drunk Sallie (Album Release)",
         "Seattle, WA 2025"
     ),
-    new Show(
+     new Show(
         false,
         "April 3rd, Jonny G & The Music Factory @ Tractor Tavern w/ Oh, Rose & Coral Grief",
         "Seattle, WA 2025"
