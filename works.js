@@ -11,6 +11,14 @@ const artPath = "images/works-album-art"
 
 const allWorks = [
   new Work(
+    `${artPath}/night music.jpg`,
+    "Night Music",
+    "Jesse Miller",
+    "Writer, Producer",
+    "2026",
+    "https://jmfodder.bandcamp.com/album/night-music"
+  ),
+  new Work(
     `${artPath}/summerclothes.jpg`,
     "Summer Clothes",
     "Jesse Miller",
