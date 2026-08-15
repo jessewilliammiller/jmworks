@@ -8,8 +8,15 @@ function Work(art, title, artist, jmRole, year, link) {
 }
 
 const artPath = "images/works-album-art"
-
 const allWorks = [
+   new Work(
+    `${artPath}/swimmer.jpg`,
+    "Swimmer",
+    "Rachel Ewen",
+    "Guitar, Mixing Engineer",
+    "2026",
+    "https://rachelewen.bandcamp.com/album/swimmer"
+  ),
   new Work(
     `${artPath}/night music.jpg`,
     "Night Music",
