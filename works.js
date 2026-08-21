@@ -9,6 +9,14 @@ function Work(art, title, artist, jmRole, year, link) {
 
 const artPath = "images/works-album-art"
 const allWorks = [
+  new Work(
+    `${artPath}/arrow.jpg`,
+    "Arrow",
+    "Jesse Miller",
+    "Writer, Producer, Mastering",
+    "2026",
+    "https://jmfodder.bandcamp.com/track/arrow"
+  ),
    new Work(
     `${artPath}/swimmer.jpg`,
     "Swimmer",
